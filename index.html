@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <h1>My Guessing Game</h1>
+
+    <script>
+      var question1 = prompt("Can I first start off by asking your name?");
+      alert("That's a great name " + question1 + '.');
+
+      var question2 = prompt('Okay ' + question1 + ' How many states have I been to?');
+        if (question2 === '5') {
+          alert("Great guess you're right!")
+        } else { 
+          alert('sorry thats wrong')};
+
+      var question3 = prompt('2nd question! What number am I thinking of?')
+        if (question3 === '8') {
+          alert('Wow youre good!')
+        } else { 
+          if (question3 < '8') {
+            alert('Too low!')
+          } else {
+            if (question3 > '8'){
+              alert('Too high!')
+           }
+          }};
+    </script>
+
+  </body>
+      
+
+
+
+</html>
