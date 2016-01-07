@@ -18,7 +18,7 @@ var question1 = prompt("Can I first start off by asking your name?");
           };
 
       var question4 = prompt('3rd and last question. Do I have 3 dogs?')
-        if (question4 === 'n'.toUpperCase() || question4 === 'no'.toUpperCase()) {
+        if (question4.toLowerCase() === 'n' || question4.toLowerCase() === 'no') {
           alert('congrats youre right!')
         }
         else {
